@@ -11,7 +11,6 @@ $(document).ready(function () {
 	});
 
 	$('#open').on('click', function () {
-		// openFile($(this).index());
 		showList();
 	});
 
@@ -123,7 +122,6 @@ function showEditor() {
 	$('.fileList').hide();
 	$('.document').css('display', 'block');
 	$('.title').css('visibility', 'visible');
-	// $('.infobar').show();
 }
 
 function showList() {
